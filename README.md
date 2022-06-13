@@ -1,3 +1,5 @@
 # alfred-deepl
 
-`npm install -g alfred-deepl@backflip/alfred-deepl`
+```sh
+npm install -g alfred-deepl@backflip/alfred-deepl
+```

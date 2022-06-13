@@ -5,7 +5,7 @@ const apiKey = alfy.userConfig.get("apiKey");
 const { translations } = await alfy.fetch(
   `https://api-free.deepl.com/v2/translate`,
   {
-    query: {
+    searchParams: {
       auth_key: apiKey,
       text: alfy.input,
       target_lang: "EN",
