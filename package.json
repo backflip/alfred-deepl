@@ -1,7 +1,7 @@
 {
   "name": "alfred-deepl",
   "version": "1.0.0",
-  "description": "Alfred workflow to translate input via DeepL API",
+  "description": "Alfred workflow using DeepL API to translate German to English",
   "main": "index.js",
   "type": "module",
   "scripts": {
