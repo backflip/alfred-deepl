@@ -1,10 +1,12 @@
 {
   "name": "alfred-deepl",
   "version": "1.0.0",
-  "description": "",
+  "description": "Alfred workflow to translate input via DeepL API",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+		"postinstall": "alfy-init",
+		"preuninstall": "alfy-cleanup"
   },
   "keywords": [],
   "author": "",
