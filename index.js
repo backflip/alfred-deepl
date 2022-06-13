@@ -1,4 +1,4 @@
-const alfy = require("alfy");
+import alfy from "alfy";
 
 const apiKey = alfy.userConfig.get("apiKey");
 
@@ -16,6 +16,7 @@ const { translations } = await alfy.fetch(
 
 const items = translations.map((element) => ({
   title: element.text,
+  arg: element.text,
 }));
 
 alfy.output(items);
