@@ -14,9 +14,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "alfy": "^1.0.0"
+    "alfy": "^3.1.0"
   },
   "devDependencies": {
-    "prettier": "^2.3.2"
+    "prettier": "^3.10.1"
   }
 }

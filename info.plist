@@ -2,8 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>name</key>
-	<string>deepl</string>
 	<key>bundleid</key>
 	<string>ch.responsive.deepl</string>
 	<key>category</key>
@@ -26,6 +24,8 @@
 	</dict>
 	<key>disabled</key>
 	<false/>
+	<key>name</key>
+	<string>deepl</string>
 	<key>objects</key>
 	<array>
 		<dict>
@@ -35,6 +35,8 @@
 				<false/>
 				<key>clipboardtext</key>
 				<string>{query}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
 				<key>transient</key>
 				<false/>
 			</dict>
@@ -43,13 +45,19 @@
 			<key>uid</key>
 			<string>263B1E79-B3B8-4FE2-B384-5DBD35F7124B</string>
 			<key>version</key>
-			<integer>2</integer>
+			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
 				<key>alfredfiltersresults</key>
 				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<false/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>escaping</key>
@@ -71,13 +79,13 @@
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
-				<string>index.js</string>
+				<string></string>
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
 				<string>Use DeepL API to translate German to English</string>
 				<key>type</key>
-				<integer>0</integer>
+				<integer>5</integer>
 				<key>withspace</key>
 				<true/>
 			</dict>
@@ -86,7 +94,7 @@
 			<key>uid</key>
 			<string>36D258E6-6F5C-4214-A297-FB43154305AB</string>
 			<key>version</key>
-			<integer>2</integer>
+			<integer>3</integer>
 		</dict>
 	</array>
 	<key>readme</key>
@@ -96,17 +104,19 @@
 		<key>263B1E79-B3B8-4FE2-B384-5DBD35F7124B</key>
 		<dict>
 			<key>xpos</key>
-			<integer>150</integer>
+			<real>150</real>
 			<key>ypos</key>
-			<integer>10</integer>
+			<real>15</real>
 		</dict>
 		<key>36D258E6-6F5C-4214-A297-FB43154305AB</key>
 		<dict>
 			<key>xpos</key>
-			<integer>10</integer>
+			<real>30</real>
 			<key>ypos</key>
-			<integer>10</integer>
+			<real>15</real>
 		</dict>
 	</dict>
+	<key>userconfigurationconfig</key>
+	<array/>
 </dict>
 </plist>
